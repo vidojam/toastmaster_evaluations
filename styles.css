@@ -1,56 +1,60 @@
 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #2e3e3e;
+    color: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgb(51, 84, 84);
+    padding: 40px;
 }
 
-.title {
-    display: flex;
-    flex-direction:row;
-    align-items:flex-start;
-} 
-
-.screen {
-    width: 224px;
-    background-color: rgb(176, 205, 176);
-    font-size: 40px;
-    text-align: end;
-    padding: 4px;
+.container {
+    max-width: 900px;
+    background: #f0f4f3;
+    padding: 30px;
+    border-radius: 20px;
+    color: #000;
 }
 
-.sepsgv {
-    justify-content: right;
-
+h1 {
+    text-align: center;
+    color: #234;
+    margin-bottom: 40px;
 }
 
-.buttons {
-    width: 800px;
-    display: flex;
-    flex-wrap: wrap;
+.section {
+    margin-bottom: 40px;
+    padding: 10px 0;
+}
+
+.section h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #aaa;
+    margin-bottom: 15px;
+}
+
+.subsection h3 {
+    color: #4e5c68;
+    margin-top: 20px;
 }
 
 button {
-    background-color: rgb(131, 129, 129);
+    background-color: #3c6e71;
+    color: white;
     border: none;
-    color: rgb(255, 255, 255);
-    font-size: 40px;
-    width: 255px;
-    height: 60px;
-    border-radius: 25px;
-    margin: 4px;
-}
-
-Button1 {
-    background-color: rgb(232, 232, 232);
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: rgb(111, 110, 100);
+    background-color: #284b50;
 }
 
 button:active {
-    background-color: rgb(232, 232, 232);
-    color: rgb(0, 0, 0);
+    background-color: #9ec1a3;
+    color: #000;
 }
